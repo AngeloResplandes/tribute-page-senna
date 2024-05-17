@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Asap", Arial;
+}
+
+header {
+  background-color: #9B1F2C;
+  border: 3px solid #000;
+  display: flex;
+  justify-content: center;
+}
+
+header .name h1 {
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+  text-shadow: 3px 3px black;
+  font-size: 45px;
+}
+
+main .background_img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url("images/ayrton-senna.jpg");
+  background-position: top;
+  background-size: cover;
+  height: 800px;
+}
+
+main .background_text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  font-size: 20px;
+  color: #fff;
+}
+
+main .background_text p {
+  padding: 0;
+  margin: 0px;
+}
+
+main .text_position {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+main .resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #9B1F2C;
+  border: 3px solid #000;
+}
+
+main .text_resume {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  padding-top: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+main .resume p {
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 1px 1px black;
+  padding-top: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+main .resume a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+main .resume a:hover {
+  color: #38B6FF;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FDD802;
+  border: 3px solid #000;
+  border-top: 0px solid #000;
+}
