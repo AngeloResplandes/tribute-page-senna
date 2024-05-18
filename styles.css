@@ -21,7 +21,7 @@ header .name h1 {
   margin: 0;
   padding: 10px;
   color: #fff;
-  text-shadow: 3px 3px black;
+  text-shadow: 3px 3px #000;
   font-size: 45px;
 }
 
@@ -32,7 +32,7 @@ main .background_img {
   background-image: url("images/ayrton-senna.jpg");
   background-position: top;
   background-size: cover;
-  height: 800px;
+  height: 650px;
 }
 
 main .background_text {
@@ -58,6 +58,8 @@ main .resume {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #9B1F2C;
   border: 3px solid #000;
 }
@@ -65,35 +67,33 @@ main .resume {
 main .text_resume {
   color: #fff;
   font-size: 20px;
-  text-align: center;
-  text-shadow: 1px 1px black;
-  padding-top: 10px;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-bottom: 10px;
+  text-align: justify;
+  width: 700px;
+  text-shadow: 1px 1px #000;
+  padding: 0;
   margin: 0;
+  margin-bottom: 10px;
 }
 
 main .resume p {
+  text-align: center;
   color: #fff;
   font-size: 20px;
-  text-shadow: 1px 1px black;
-  padding-top: 10px;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-bottom: 10px;
+  text-shadow: 1px 1px #000;
+  width: 700px;
   margin: 0;
+  padding: 0;
+  margin-top: 10px;
 }
 
 main .resume a {
   color: #fff;
   font-size: 18px;
   font-weight: bold;
-  padding-top: 10px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 10px;
+  padding: 0;
   margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 main .resume a:hover {
@@ -107,4 +107,70 @@ section {
   background-color: #FDD802;
   border: 3px solid #000;
   border-top: 0px solid #000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+section .block_1 {
+  display: flex;
+  flex-direction: row;
+}
+
+section .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 20px;
+}
+
+section .text h1 {
+  padding: 0;
+  margin: 0;
+}
+
+section .text p {
+  color: #000;
+  font-size: 20px;
+  text-align: justify;
+  width: 700px;
+  padding: 0;
+  margin: 0;
+}
+
+section .image img {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  margin-left: 20px;
+}
+
+section .block_2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+section .image_2 img {
+  margin-right: 20px;
+}
+
+section .text_2 {
+  margin-left: 20px;
+}
+
+section a {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+
+section a:hover {
+  color: #38B6FF;
 }
