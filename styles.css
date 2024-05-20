@@ -198,10 +198,11 @@ footer .text_footer {
   align-items: center;
 }
 
-footer .text_footer img {
+footer .text_footer img,
+#link_github {
   object-fit: cover;
-  width: 100px;
-  height: 100px;
+  width: 65px;
+  height: 65px;
 }
 
 footer p {
@@ -209,6 +210,6 @@ footer p {
   color: #fff;
   font-size: 20px;
   padding: 0;
-  margin-top: 0;
+  margin-top: 5px;
   margin-bottom: 20px;
 }
