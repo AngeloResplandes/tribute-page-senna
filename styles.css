@@ -353,3 +353,52 @@ footer p {
     font-size: 16px;
   }
 }
+
+@media (max-width: 400px) {
+  header .name h1 {
+    font-size: 36px;
+  }
+
+  main .background_text {
+    font-size: 14px;
+  }
+
+  main .text_resume {
+    width: 324.64px;
+    font-size: 14px;
+  }
+
+  main #text_link {
+    width: 324.64px;
+    font-size: 12px;
+  }
+
+  main .resume p {
+    width: 324.64px;
+    font-size: 14px;
+  }
+
+  section .text h1 {
+    width: 324.64px;
+    font-size: 18px;
+  }
+
+  section .text p {
+    width: 324.64px;
+    font-size: 14px;
+  }
+
+  section a {
+    font-size: 12px;
+  }
+
+  footer .text_footer img,
+  #link_github {
+    width: 45px;
+    height: 45px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
