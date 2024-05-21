@@ -279,6 +279,10 @@ footer p {
     font-size: 16px;
   }
 
+  main .resume a {
+    font-size: 16px;
+  }
+
   main .resume p {
     width: 463.76px;
     font-size: 18px;
@@ -321,6 +325,10 @@ footer p {
 
   main #text_link {
     width: 373px;
+    font-size: 14px;
+  }
+
+  main .resume a {
     font-size: 14px;
   }
 
@@ -370,6 +378,10 @@ footer p {
 
   main #text_link {
     width: 324.64px;
+    font-size: 12px;
+  }
+
+  main .resume a {
     font-size: 12px;
   }
 
